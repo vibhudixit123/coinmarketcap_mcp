@@ -5,6 +5,7 @@ import re
 
 
 class ValidationError(Exception):
+    pass
   
 
 
@@ -35,6 +36,9 @@ def validate_symbol(symbol: str) -> str:
 
 
 def validate_symbols(symbols: List[str]) -> List[str]:
+      """
+    - Reuse: Calls validate_symbol() for each item (DRY principle)
+    """
 
     
     if not isinstance(symbols, list):
