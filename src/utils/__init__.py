@@ -19,6 +19,14 @@ from .formatters import (
     format_analytics,
 )
 
+from .chains import (
+    Chain,
+    CHAINS,
+    get_chain,
+    get_chain_by_id,
+    list_supported_chains,
+    validate_chain,
+)
 
 
 __all__ = [
@@ -35,4 +43,10 @@ __all__ = [
     "format_token_list",
     "format_comparison",
     "format_analytics",
+    "Chain",
+    "CHAINS",
+    "get_chain",
+    "get_chain_by_id",
+    "list_supported_chains",
+    "validate_chain",
 ]
