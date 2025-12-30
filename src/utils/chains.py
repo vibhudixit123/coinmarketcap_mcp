@@ -16,7 +16,7 @@ class Chain:
 
 CHAINS: Dict[str, Chain] = {
     "ethereum": Chain(
-        id=1027,
+        id=1,
         name="Ethereum",
         symbol="ETH",
         explorer="https://etherscan.io"
@@ -28,37 +28,37 @@ CHAINS: Dict[str, Chain] = {
         explorer="https://basescan.org"
     ),
     "solana": Chain(
-        id=5426,
+        id=16,
         name="Solana",
         symbol="SOL",
         explorer="https://solscan.io"
     ),
     "polygon": Chain(
-        id=3890,
+        id=25,
         name="Polygon",
         symbol="MATIC",
         explorer="https://polygonscan.com"
     ),
     "arbitrum": Chain(
-        id=11841,
+        id=51,
         name="Arbitrum",
         symbol="ETH",
         explorer="https://arbiscan.io"
     ),
     "optimism": Chain(
-        id=11840,
+        id=42,
         name="Optimism",
         symbol="ETH",
         explorer="https://optimistic.etherscan.io"
     ),
     "avalanche": Chain(
-        id=5805,
+        id=28,
         name="Avalanche C-Chain",
         symbol="AVAX",
         explorer="https://snowtrace.io"
     ),
     "bnb": Chain(
-        id=1839,
+        id=14,
         name="BNB Chain",
         symbol="BNB",
         explorer="https://bscscan.com"
